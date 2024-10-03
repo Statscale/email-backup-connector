@@ -27,7 +27,7 @@ namespace Mail_Router
                     cmsMailLoaderConnector.LoadMail(emails);
                 }
 
-                // 3. A standard way to route documents from Inbox to patent or trademark cases
+                // 3. A standard way to route documents from Inbox to the filing system
                 cmsDocumentRouterConnector.RouteDocuments();
             }
             else
